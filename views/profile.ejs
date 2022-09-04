@@ -1,0 +1,18 @@
+<%- include('partials/header2') %>
+  <div class="profile-container">
+    <!-- Add icon library -->
+    <div class="card">
+      <img src="./images/generic-user.jpg" alt="John" style="width:100%">
+      <h1>
+        <%=User.username%>
+      </h1>
+      <p class="title">
+        <%= User.fullName %>
+      </p>
+      <p>
+        <%= User.email %>
+      </p>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer') %>

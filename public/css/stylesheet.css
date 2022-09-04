@@ -1,0 +1,278 @@
+button {
+  background-color: #1c3072; /* Green */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  min-height: 600px;
+  margin: 0;
+}
+.form-container {
+  width: 800px;
+  border: 1px solid rgb(13, 35, 109);
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-item {
+  height: 60px;
+  margin: 30px auto 30px;
+}
+.form-item input {
+  width: 80%;
+  height: 30px;
+}
+
+/* Header  */
+.topnav {
+  background-color: #1c3072;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(185, 197, 10);
+  color: black;
+}
+.topnav a.active {
+  background-color: rgb(185, 197, 10);
+  color: white;
+}
+
+/* 
+#fabc41
+#faf4e1
+#ec9454
+#c72767 */
+
+/* Home */
+.jumbotron-container {
+  padding: 20px;
+}
+
+.right {
+  float: right;
+  padding: 20px;
+  width: 46%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.left {
+  display: inline-block;
+  width: 46%;
+  padding: 20px;
+}
+.left h1 {
+  text-align: center;
+}
+.left p {
+  font-size: 20px;
+}
+.features {
+  margin-top: 50px;
+}
+.features h1 {
+  text-align: center;
+}
+.features-list {
+  padding: 40px;
+}
+
+.odd-float img {
+  float: left;
+  margin-right: 20px;
+}
+
+.even-float img {
+  float: right;
+  margin-left: 20px;
+}
+.odd-float p {
+  margin: 30px;
+}
+
+.even-float p {
+  margin: 30px;
+}
+.even-float,
+.odd-float {
+  margin: 0 auto 0;
+  height: 150px;
+  padding: 30px;
+}
+
+.even-float h2 {
+  padding-left: 30px;
+  text-align: left;
+}
+.odd-float h2 {
+  padding-left: 30px;
+  text-align: left;
+}
+
+/*Diary*/
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  padding: 30px;
+}
+.joke-container {
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid red;
+}
+.user-container {
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid red;
+}
+.joke-container button {
+  margin-bottom: 10px;
+}
+.grid-system {
+  display: grid;
+}
+
+.grid-system div {
+  height: 100px;
+  width: 30px;
+  border: 1px solid red;
+}
+.post-container {
+  padding: 30px;
+  text-align: center;
+}
+.post {
+  margin: auto;
+  padding: 30px;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card img {
+  margin-bottom: 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  height: 100px;
+  background-color: #b4e2e9;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+footer h2 {
+  color: rgb(117, 205, 129);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.compose-form {
+  height: 500px;
+  position: relative;
+  margin-top: 20px;
+}
+.compose-form textarea {
+  width: 80%;
+}
+
+.compose-form button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 10%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: #1c3072;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 40px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1;
+}
+
+.my-float {
+  margin-top: 22px;
+}

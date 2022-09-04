@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+    <div class="form-container">
+        <h1 class="form-title"><u>PLEASE PROVIDE LOGIN DETAILS</u></h1>
+        <img src="images/diary.png" alt="Logo" width="67" height="67">
+        <form method="POST" action="/login">
+            <div class="form-item">
+                <label for="uname">User Name</label><br>
+                <input id="uname" name="username" type="text">
+            </div>
+            <div class="form-item">
+                <label for="pwd">Password</label><br>
+                <input id="pwd" name="password" type="password">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+<%- include('partials/footer') %>

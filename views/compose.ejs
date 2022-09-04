@@ -1,0 +1,18 @@
+<%- include('partials/header2') %>
+    <div class="form-container compose-form">
+        <h1 class="form-title"><u>PLEASE ENTER DETAILS OF YOUR ENTRY</u></h1>
+        <img src="images/diary.png" alt="Logo" width="67" height="67">
+        <form action="/compose" method="POST">
+            <div class="form-item">
+                <label for="uname">Title</label><br>
+                <input id="uname" name="title" type="text">
+            </div>
+            <div class="form-item">
+                <label for="pwd">Description</label><br>
+                <textarea id="pwd" name="content" rows="10" cols="107"></textarea>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+<%- include('partials/footer') %>

@@ -1,0 +1,36 @@
+<%- include('partials/header2') %>
+  <div class="flex-container">
+    <div class="flex-child l" style="text-align:center;">
+      <h1>Hello <%= name %>
+      </h1>
+      <h3>Quote of the day</h3>
+      <p class="quote"></p>
+      <span>-</span>
+      <p class="author"></p>
+    </div>
+    <div class="flex-child r">
+      <div class="joke-container">
+        <p class="joke"></p>
+        <button class="get-joke">Get a Joke</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="post-container">
+    <% Posts.forEach(function(post) { %>
+      <div class="post">
+        <h1>
+          <%= post.title %>
+        </h1>
+        <p>
+          <%= post.content %>
+        </p>
+      </div>
+      <% }); %>
+  </div>
+  <a href="/compose" class="float plus-btn">
+    <i class="fa fa-plus my-float"></i>
+  </a>
+  <script src="js/index.js"></script>
+</div>
+  <%- include('partials/footer') %>
